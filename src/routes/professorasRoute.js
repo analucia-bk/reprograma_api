@@ -3,3 +3,5 @@ const router = express.Router()
 const controller = require("../controllers/professorasControllers")
 router.get("/",controller.get)
 module.exports = router
+
+// FUNCIONOU
